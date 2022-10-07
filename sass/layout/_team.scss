@@ -1,0 +1,122 @@
+// .programists__pictures ul {
+//     list-style-type:none;
+//     padding: 0;
+// }
+
+.programists__pictures{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--team-bcolor);
+}
+.team__title{
+    color:#212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+    justify-content: center;
+    }
+    .team__text{
+        background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+   
+    &:last-child{
+        margin-bottom: 0;
+    }
+        @media screen and (min-width: 768px) {
+            flex-basis: calc((100% - 30px) / 2);
+            margin-bottom: 0;
+}
+}
+
+.team__decor{
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+.team__name{
+        color: var(--h-color-text);
+        font-weight: 500; 
+        font-size: 16px; 
+        line-height: 1.17;
+        text-align: center;
+        margin-bottom: 0;
+}  
+// .team__add{
+//     padding-bottom: 24px;
+// }
+
+.team__title{
+    color: var(--main-text-color); 
+    font-size: 16px; 
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.team{
+display: block;
+    &__add{
+        padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    &__name{
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+    }
+    &__title{
+
+            color: #757575;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+            display: flex;
+            align-items: center;
+        }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 30px;
+        text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+
+.team__item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+   
+        flex-basis: calc((100% - 30px) / 2);
+        margin-bottom: 0;
+        }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 30px) / 4);
+        }
+}
+}
