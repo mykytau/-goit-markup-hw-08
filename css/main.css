@@ -1938,6 +1938,7 @@ header {
   display: none;
   width: 100vw;
   height: 100vh;
+  padding: 0;
   background-color: #FFFFFF;
 }
 @media screen and (min-width: 768px) {
@@ -1958,6 +1959,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
+  padding: 48px 40px;
 }
 
 .btn-toggle {
