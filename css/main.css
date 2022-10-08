@@ -1948,6 +1948,7 @@ header {
 }
 
 .mobile__flex {
+  padding: 48px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1959,7 +1960,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
-  padding: 48px 40px;
 }
 
 .btn-toggle {
