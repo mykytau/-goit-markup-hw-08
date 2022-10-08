@@ -1079,10 +1079,15 @@ header {
 
 .address-bottom__type {
   margin-bottom: 8px;
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .address-bottom__type {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .address-bottom__link {
@@ -1306,7 +1311,6 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  text-align: left;
 }
 @media screen and (min-width: 768px) {
   .bottom__decor {
@@ -1329,6 +1333,7 @@ header {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     gap: 70px;
+    text-align: left;
   }
 }
 
@@ -1348,6 +1353,11 @@ header {
 @media screen and (min-width: 1200px) {
   .bottom__address {
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  .bottom__address {
+    margin-bottom: 60px;
   }
 }
 

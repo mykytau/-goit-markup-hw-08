@@ -16,8 +16,13 @@
 }
 .address-bottom__type{
     margin-bottom: 8px;
-    text-align: left;
-    display: flex;
+    text-align: center;
+    @media screen and (min-width: 1200px){
+        text-align: left;
+        display:flex;
+    }
+   
+
 }
 .address-bottom__link{
     font-family: Roboto;
@@ -194,7 +199,7 @@
     align-items: baseline;
     justify-content: center;
     text-align: center;
-   text-align: left;
+   
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -205,6 +210,7 @@
         display: flex;
         flex-wrap: nowrap;
         gap: 70px;
+        text-align: left;
         }  
 }
 .address-bottom_decor{
@@ -221,9 +227,12 @@
 }
 
 .bottom__address{
-   
+ 
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
+        }
+        @media screen and (max-width: 769px){
+            margin-bottom: 60px;
         }
 }
 
