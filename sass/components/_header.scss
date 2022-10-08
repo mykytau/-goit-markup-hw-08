@@ -52,7 +52,7 @@
     .contacts__address{
         @media screen and (min-width: 768px) {
             display: block;
-            margin: 21px 0;
+            
                     }
       
     }
@@ -93,7 +93,7 @@
                 .nav__address{
                     display: flex;
                     align-items: center;
-                    color: var(--h-color-text);
+                    color: var(--main-text-color);
                     font-weight: 500;
                         font-size: 12px;
                     gap: 8px;

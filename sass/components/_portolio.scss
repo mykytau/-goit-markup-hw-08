@@ -46,6 +46,7 @@
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
+    flex-grow: 1;
 
 }
 .gallery-list__link{
@@ -66,7 +67,11 @@
     opacity: 1;
     transform: translateY(0);
     }
-
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 }
 

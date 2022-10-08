@@ -17,9 +17,7 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
 }
-.well{
-    padding: 94px 0;
-}
+
 .programists__pictures{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -31,4 +29,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
 }
